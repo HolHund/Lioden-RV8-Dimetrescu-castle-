@@ -14,7 +14,7 @@ overflow:hidden;
 }
 
 .box1:hover {
-background:#92aabf;
+background:rgba(208, 217, 224, 0.3);
 text-align:center;
 color:black;
 width:700px;
