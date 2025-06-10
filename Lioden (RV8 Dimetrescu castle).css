@@ -269,35 +269,10 @@ border: 10px inset rgba(30, 144, 255);
 font-family: 'Orbitron', sans-serif !important;
 }
 
-.rgb-frame-wrapper {
-  position: relative;
-  display: inline-block;
-  width: fit-content;
-  z-index: 0;
-}
-
-/* Animated RGB border using ::before */
-.rgb-frame-wrapper::before {
-  content: '';
-  position: absolute;
-  top: -7px;  /* Adjust based on border width */
-  left: -7px;
-  right: -7px;
-  bottom: -7px;
-  z-index: 0;
-  /* Animated gradient */
-  background: linear-gradient(270deg, 
-    #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
-  background-size: 1400% 1400%;
-  animation: rgbborder 6s linear infinite;
-  /* Same polygon shape as the image */
-  clip-path: polygon(50% 0, 90% 10%, 100% 50%, 90% 90%, 50% 100%, 10% 90%, 0 50%, 10% 10%);
-}
-
 /* keep the polygon shape for the image itself */
 #lion_image {
   position: relative;
-  clip-path: polygon(50% 0, 90% 10%, 100% 50%, 90% 90%, 50% 100%, 10% 90%, 0 50%, 10% 10%);
+  clip-path: square;
   overflow: hidden;
   z-index: 1;
   background: #000; /* fallback */
