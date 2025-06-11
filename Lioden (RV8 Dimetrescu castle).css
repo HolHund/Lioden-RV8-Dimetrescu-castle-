@@ -43,7 +43,7 @@ text-align:center;
 color:black;
 width:1000px;
 height:700px;
-border:5px double rgba(30, 144, 255);
+border:5px double;
 transition:all ease 2s;
 border-radius:5px;
 overflow:auto;
@@ -55,7 +55,7 @@ text-align:center;
 color:black;
 width:700px;
 height:60px;
-border:5px double rgba(30, 144, 255);
+border:5px double;
 transition:all ease 2s;
 border-radius:5px;
 overflow:hidden;
@@ -76,7 +76,7 @@ overflow:auto;
 div.boxfloat {
 background:#674ea7;
 color:black;
-border:10px inset rgba(30, 144, 255);
+border:5px double #000;
 position:fixed;
 text-align:center;
 border-radius:5px;
@@ -150,7 +150,7 @@ font-family: 'Orbitron', sans-serif !important;
 /* NAVBAR */
 .main {
 background: rgba(255, 212, 231, 0.21);
-border: 10px inset rgba(30, 144, 255);
+border:5px double #000;
 box-shadow: none;
 font-family: 'Orbitron', sans-serif !important;
 }
