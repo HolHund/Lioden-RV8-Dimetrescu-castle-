@@ -106,7 +106,7 @@ h1, h3 , .sidebar h3 {
 font-family: 'TwilightC', sans-serif !important;
 text-align: left;
 color: #000;
-border-bottom: 10px outset rgba(30, 144, 255);
+border-bottom: 5px double #000;
 }
 
 /* BUTTONS */
@@ -159,7 +159,7 @@ font-family: 'TwilightC', sans-serif !important;
 
 .navbar {
 background: #4d8cf4;
-border-bottom: 10px inset rgba(30, 144, 255);
+border-bottom: 5px double #000;
 color: #000;
 font-family: 'TwilightC', sans-serif !important;
 }
@@ -242,14 +242,14 @@ font-family: 'TwilightC', sans-serif !important;
 .alert-success {
 color: #000;
 background: #92aabf;
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 font-family: 'TwilightC', sans-serif !important;
 }
 
 .breadcrumb {
 background:  #92aabf;
 font-size: 13px;
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 font-family: 'TwilightC', sans-serif !important;
 }
 
@@ -265,7 +265,7 @@ font-family: 'TwilightC', sans-serif !important;
 
 .col-md-9 {
 background: none;
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 font-family: 'TwilightC', sans-serif !important;
 }
 
@@ -285,7 +285,7 @@ font-family: 'TwilightC', sans-serif !important;
 }
 
 .table, .item {
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 background: #10304e;
 border-collapse: separate;
 font-family: 'TwilightC', sans-serif !important;
