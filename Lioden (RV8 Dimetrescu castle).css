@@ -317,7 +317,7 @@ font-family: 'Orbitron', sans-serif !important;
 
 /* left part inside box */
 .table .left {
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 background: #4f7fac;
 color: #000;
 font-family: 'Orbitron', sans-serif !important;
