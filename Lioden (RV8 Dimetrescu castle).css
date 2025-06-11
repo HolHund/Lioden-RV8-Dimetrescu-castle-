@@ -293,12 +293,12 @@ font-family: 'TwilightC', sans-serif !important;
 
 .table .right, .table .right_odd {
 background: none;
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 font-family: 'TwilightC', sans-serif !important;
 }
 
 div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
-border: 10px inset rgba(30, 144, 255);
+border: 5px double #000;
 background: #10304e;
 color: #000;
 font-family: 'TwilightC', sans-serif !important;
@@ -312,7 +312,7 @@ font-family: 'TwilightC', sans-serif !important;
 }
 
 .table .left {
-border: 10px double #000;
+border: 5px double #000;
 background: #4f7fac;
 color: #000;
 font-family: 'TwilightC', sans-serif !important;
@@ -320,7 +320,7 @@ font-family: 'TwilightC', sans-serif !important;
 
 .inner-table .right {
 background: #4f7fac;
-border: 10px double #000;
+border: 5px double #000;
 border-left: none;
 font-family: 'TwilightC', sans-serif !important;
 }
