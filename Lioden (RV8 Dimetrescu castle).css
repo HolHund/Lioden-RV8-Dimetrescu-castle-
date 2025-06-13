@@ -177,8 +177,8 @@ justify-content: center;
 .navbar-default .navbar-nav li a:hover {
 color: #000;
 background: #92aabf;
-border-left: none;
-border-right: none;
+border-left: 5px double #000;
+border-right: 5px double #000;
 font-family: 'TwilightC', sans-serif !important;
 }
 
@@ -320,7 +320,7 @@ font-family: 'TwilightC', sans-serif !important;
 
 .inner-table .right {
 background: #4f7fac;
-border: none;
+border: 5px double #000;
 border-left: none;
 font-family: 'TwilightC', sans-serif !important;
 }
