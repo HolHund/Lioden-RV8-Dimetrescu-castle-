@@ -338,11 +338,11 @@ width: 10px;
 }
   
 ::-webkit-scrollbar-track {
-background-color: #10304e;
+background-color: #838b9a;
 }
   
 ::-webkit-scrollbar-thumb {
-background-color:  #10304e;
+background-color:  #353a3f;
 border-radius: 0px;
 border: none;
 }
