@@ -343,7 +343,7 @@ background-color: #838b9a;
   
 ::-webkit-scrollbar-thumb {
 background-color:  #353a3f;
-border-radius: 0px;
+border-radius: 3px;
 border: none;
 }
 </style>
