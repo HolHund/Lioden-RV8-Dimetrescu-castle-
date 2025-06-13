@@ -10,7 +10,7 @@ text-align:center;
 color:black;
 width:700px;
 height:60px;
-border:5px double #000;
+border:none;
 transition:all ease 2s;
 border-radius:5px;
 overflow:hidden;
